@@ -48,6 +48,36 @@
       "label": "Base64"
     },
     {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "name",
+      "label": "Filename"
+    },
+    {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "fileExtension",
+      "label": "File extension"
+    },
+    {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "contentType",
+      "label": "Content Type of the file"
+    },
+    {
       "info": "Sometimes you may need to pass some additional information in your request, this is possible by adding variables in your header.",
       "label": "Headers",
       "meta": {
